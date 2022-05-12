@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="20dp"
+tools:context=".SubDepartamento_Modificar">
+
+<TextView
+    android:id="@+id/lblTitulo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Modificar subDepartamento"
+    android:textSize="25dp"
+    android:textColor="@color/black"
+    android:textAlignment="center"
+    />
+
+<EditText
+    android:id="@+id/txtIdEdificio"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Id Edificio"
+    android:textSize="20dp"
+    android:layout_marginTop="10dp"
+    />
+<EditText
+    android:id="@+id/txtPiso"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Piso"
+    android:textSize="20dp"
+    android:layout_marginTop="10dp"
+    />
+
+<Button
+    android:id="@+id/btnModificar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Modificar"
+    android:textSize="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    />
+<Button
+    android:id="@+id/btnRegresar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Regresar"
+    android:textSize="20dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    />
+
+</LinearLayout>

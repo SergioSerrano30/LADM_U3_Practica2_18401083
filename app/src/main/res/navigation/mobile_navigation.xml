@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_buscar">
+    <fragment
+        android:id="@+id/navigation_buscar"
+        android:name="mx.tecnm.ladm_u3_practica2_18401083.ui.buscar.BuscarFragment"
+        android:label="Buscar"
+        tools:layout="@layout/fragment_buscar" />
+    <fragment
+        android:id="@+id/navigation_agregar"
+        android:name="mx.tecnm.ladm_u3_practica2_18401083.ui.agregar.AgregarFragment"
+        android:label="Agregar"
+        tools:layout="@layout/fragment_agregar" />
+    <fragment
+        android:id="@+id/navigation_modificar"
+        android:name="mx.tecnm.ladm_u3_practica2_18401083.ui.modificar.ModificarFragment"
+        android:label="Modificar"
+        tools:layout="@layout/fragment_modificar" />
+</navigation>

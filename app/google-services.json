@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "623422882448",
+    "project_id": "ladm-u3-practica02-18401083",
+    "storage_bucket": "ladm-u3-practica02-18401083.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623422882448:android:388b43565b846bd2984e15",
+        "android_client_info": {
+          "package_name": "mx.tecnm.ladm_u3_practica2_18401083"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623422882448-ci4298miiou1ql2gmq8r67lsckqs7hg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRUtlgh55dpqD5sRPHJ1JinZcyWwDRA8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623422882448-ci4298miiou1ql2gmq8r67lsckqs7hg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
